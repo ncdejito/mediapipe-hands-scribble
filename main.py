@@ -96,7 +96,7 @@ with mp_hands.Hands(
                         scribbles[-1] = smoothen(scribbles[-1])
                         scribbles.append([])
                 if is_touching(THUMB_TIP, MIDDLE_FINGER_TIP):
-                    scribbles[-2] = []
+                    # scribbles[-2] = []
                     play_video()
                 if is_touching(THUMB_TIP, PINKY_TIP):
                     print("Clear board")

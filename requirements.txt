@@ -1,2 +1,2 @@
 mediapipe
-vlc
+python-vlc
